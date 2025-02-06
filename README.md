@@ -116,9 +116,9 @@ The frontend will run on http://localhost:3000.
 ---
 ### Backend (Express)
 • **Fetch All Notes**:
-   • **Method**: GET
-   • **URL**: http://localhost:3001/api/notes
-   • **Response**:
+   - **Method**: `GET`
+   - **URL**: `http://localhost:3001/api/notes`
+   - **Response**:
 ```json
         [
           {
@@ -128,9 +128,9 @@ The frontend will run on http://localhost:3000.
         ]
 ```
 • **Add a New Note**:
-   • **Method**: POST
-   • **URL**: http://localhost:3001/api/notes
-   • **Request Body**:  
+   - **Method**: `POST`
+   - **URL**: `http://localhost:3001/api/notes`
+   - **Request Body**:  
 ```json 
        {
          "title": "Test Note",
