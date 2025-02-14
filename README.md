@@ -36,7 +36,7 @@ A simple full-stack notes application built with **Next.js** (frontend) and **Ex
   - CORS (for cross-origin requests)
 
 ---
-
+```
 ## Project Structure
 notes-app/
 ├── backend/ # Express backend
@@ -60,7 +60,7 @@ notes-app/
 ├── package.json # Root dependencies (for running both frontend and backend)
 └── README.md # Project documentation
 
-
+```
 ---
 
 ## Setup Instructions
@@ -115,10 +115,10 @@ The frontend will run on http://localhost:3000.
 ## API Endpoints
 ---
 ### Backend (Express)
-• Fetch All Notes:
-   • Method: GET
-   •URL: http://localhost:3001/api/notes
-   •Response:
+• **Fetch All Notes**:
+   - **Method**: `GET`
+   - **URL**: `http://localhost:3001/api/notes`
+   - **Response**:
 ```json
         [
           {
@@ -127,17 +127,17 @@ The frontend will run on http://localhost:3000.
           }
         ]
 ```
-• Add a New Note:
-   • Method: POST
-   • URL: http://localhost:3001/api/notes
-   • Request Body:  
+• **Add a New Note**:
+   - **Method**: `POST`
+   - **URL**: `http://localhost:3001/api/notes`
+   - **Request Body**:  
 ```json 
        {
          "title": "Test Note",
          "content": "This is a test note."
        }
 ```
-   • Response:
+   • **Response**:
 ```json
        {
          "title": "Test Note",
